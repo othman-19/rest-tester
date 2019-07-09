@@ -4,13 +4,14 @@ class UsersController < ApplicationController
     # GET /users
     # GET /users.json
     def index
-     # @users = User.all
+      #@users = User.all
       @name = "I am the index action!"
     end
   
     # GET /users/1
     # GET /users/1.json
     def show
+      @user = User.find(params[:id])
       @name = "I am the show action!"
     end
   
@@ -22,6 +23,12 @@ class UsersController < ApplicationController
   
     # GET /users/1/edit
     def edit
+       #@user = User.find(params[:user_id])
       @name = "I am the edit action!"
     end
+
+    def create
+      #@user = User.find(params[:user_id])
+     @name = "I am the create action!"
+   end
 end
