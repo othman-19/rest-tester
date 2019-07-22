@@ -1,24 +1,21 @@
-# README
+# Rest-tester Project
+A simple program that test Rest-Client 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## prerequisite
+1. Git.
+2. Code editor.
+3. Code linter
+4. Ruby
+5. Rails
+6. Rest-Client
 
-Things you may want to cover:
+## How to run the program
+1. Open the terminal.
+2. Enter `git clone https://github.com/othman-19/rest-tester `.
+3. Navigate to the cloned repository.
+4. In the terminal cd into rest-tester.
+5. Run the application by typing ruby app/script/rest_requestor.rb 
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Contributor(s)
+1. [Othamane Naamani](https://github.com/othman-19/).
+2. [Molnar Emese](https://github.com/Mesi21).
